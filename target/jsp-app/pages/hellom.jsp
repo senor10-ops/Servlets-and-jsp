@@ -1,11 +1,13 @@
-<%@ page contentType="text/html; charset=ISO-8859-1" language="java" %>
+<%@ page contentType="text/html; charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Welcome to JSP</title>
+    <title>Form Test Page</title>
 </head>
 <body>
-    <h2>Welcome to the first JSP Web Application sir!</h2>
-    <p>Click <a href="hellom">here</a> to go to the servlet.</p>
+    <h2>Test the ComeServlet</h2>
+    <form action="hellom" method="get">
+        <input type="submit" value="Send GET request to /hellom">
+    </form>
 </body>
 </html>
